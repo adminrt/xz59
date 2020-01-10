@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>搜索 - 下载59网</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="applicable-device" content="mobile">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1, user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="yes" name="apple-touch-fullscreen" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="/kaifamei/css/index.css" />
+<link rel="stylesheet" type="text/css" href="/kaifamei/css/swiper.min.css" />
+<script src="/kaifamei/js/main.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="wrap"> 
+  <!-- 顶部 -->
+  <header class="green_bg flex"> <a href="javascript:history.go(-1)" class="back"><i class="icon"></i></a>
+    <div class="search_txt flex flex_grow">
+      <input type="text" class="text flex_grow" id="searchKey" onkeyup="if(event.keyCode==13){Javascript:search();}else{Javascript:liftSearch();}" value="" />
+      <span class="close_txt" id="closeTxt"><i class="icon"></i></span>
+      <div class="search_ul hide">
+        <ul class="search_ul_txt">
+          <li>王者荣耀</li>
+          <li>绝地求生刺激战场</li>
+          <li>阴阳师</li>
+        </ul>
+      </div>
+    </div>
+    <input type="hidden" id="baseUrl" value="/">
+    <a href="javascript:void(0)" class="search2" id="dosearch"><i class="icon"></i></a> </header>
+  <!-- 搜索首页 -->
+  <div class="search_wrap bg">
+    <div class="near_fridends">附近好友在玩：
+	    <a href="/game/2115.html">欧陆战争6：1914</a>
+	    <a href="/game/2110.html">星际扩散</a>
+	    <a href="/game/2111.html">山有扶苏</a>
+	    </div>
+    <div class="tit flex">
+      <h3 class="flex_grow">热门</h3>
+      <a href="/game/" class="more">更多 &gt;</a> </div>
+    <ul class="img_list flex">
+      <li><a href="/game/2464.html"> <img src="/d/file/titlepic/20191225/35icmlkjsvq.png" alt="长安幻世绘iOS版是">
+        <p class="name">长安幻世绘iOS版是</p>
+        <p class="size">01126.4MB</p>
+        </a></li>
+      <li><a href="/game/2486.html"> <img src="/d/file/titlepic/20191225/4uglsbr4n14.png" alt="天劫令果盘版">
+        <p class="name">天劫令果盘版</p>
+        <p class="size">144.35MB</p>
+        </a></li>
+      <li><a href="/game/2456.html"> <img src="/d/file/titlepic/20191225/ppdbhfzf0z3.png" alt="长安幻世绘无限元宝版">
+        <p class="name">长安幻世绘无限元宝版</p>
+        <p class="size">769.18MB</p>
+        </a></li>
+      <li><a href="/game/2091.html"> <img src="/d/file/titlepic/20191225/fsq1mkqfhs5.png" alt="真神之路">
+        <p class="name">真神之路</p>
+        <p class="size">0MB</p>
+        </a></li>
+      <li><a href="/game/2109.html"> <img src="/d/file/titlepic/20191225/ijfkxhzptqw.png" alt="山有扶苏测试版">
+        <p class="name">山有扶苏测试版</p>
+        <p class="size">128.78MB</p>
+        </a></li>
+    </ul>
+    <ul class="txt_list flex">
+    </ul>
+    <div class="green_line"></div>
+    <div class="tit flex">
+      <h3 class="flex_grow">手机应用</h3>
+    </div>
+    <ul class="txt_list flex">
+	      <li><a href="/soft/1377.html" title="快图浏览">快图浏览</a></li>
+	      <li><a href="/soft/1370.html" title="氧气相机">氧气相机</a></li>
+	      <li><a href="/soft/1371.html" title="防沉迷应用锁">防沉迷应用锁</a></li>
+	    </ul>
+    <div class="green_line"></div>
+    <div class="tit flex">
+      <h3 class="flex_grow">手机游戏</h3>
+    </div>
+    <ul class="txt_list flex">
+	      <li><a href="/game/2141.html" title="有杀气童话2网易版">有杀气童话2网易版</a></li>
+	      <li><a href="/game/2142.html" title="别惹三国">别惹三国</a></li>
+	      <li><a href="/game/2143.html" title="白猫与冰之城">白猫与冰之城</a></li>
+	    </ul>
+    <div class="green_line"></div>
+    <div class="tits"> <a href="/game/" target="_blank"><i class="icon_i"></i> 更多游戏</a> </div>
+  </div>
+  
+  <!-- 搜索列表 -->
+  <div class="search_list_wrap_div bg hide">
+    <ul class="search_list_wrap">
+    </ul>
+  </div>
+  <div class="h20"></div>
+<footer>
+  <div class="footer w1200">
+    <div class="bottom_footer"> 游戏版权归原作者享有，如无意之中侵犯了您的版权，请按照《版权保护投诉指引》</a> 来信告知，本站将应您的要求删除<br>
+      健康游戏提示：抵制不良游戏，拒绝盗版游戏，注意自我保护，谨防受骗上当，适度游戏益脑，沉迷游戏伤身，合理安排时间，享受健康生活<br>
+          <div class="footer-links"> <a href="/support/about.html" rel="nofollow" target="_blank">关于本站</a> <a href="/link/" rel="nofollow" target="_blank">友情链接</a> <a href="/support/contact.html" rel="nofollow" target="_blank">联系我们</a> <a href="/support/jzjh.html" rel="nofollow" target="_blank">家长监护</a> <a href="/ruku.html" rel="nofollow" target="_blank">游戏入库</a></div>
+      Copyright 2019-2025 <a href="/" class="s"><strong>http://www.xz59.com</strong></a>. Some rights reserved.下载59网 版权所有 </div>
+  </div>
+</footer>
+<script type="text/javascript" src="/xz59/js/jquery1.9.1.min.js"></script> 
+<script type="text/javascript" src="/xz59/js/index.js"></script> 
+</div>
+<script src="/kaifamei/js/zepto.min.js" type="text/javascript" charset="utf-8"></script> 
+<script src="/kaifamei/js/fastclick.min.js" type="text/javascript"></script> 
+<script src="/kaifamei/js/swiper.min.js" type="text/javascript"></script> 
+<script src="/kaifamei/js/index.js" type="text/javascript"></script>
+</body>
+</html>

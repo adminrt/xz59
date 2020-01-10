@@ -1,0 +1,38 @@
+
+.Min7 { overflow: hidden; background: #fff; padding: 20px 0 0 0; margin-bottom:-12px; }
+.Min7 .item { width: 374px; height: 558px; border: 1px solid #eee; float: left; margin: 30px 0; padding-bottom: 10px; }
+.Min7 .item .label { display: block; text-align: center; width: 160px; height: 44px; line-height: 44px; background: #eee; color: #fff; font-size: 20px; font-weight: bold; margin: -20px auto 0; }
+.Min7 .item ul { width: 320px; margin: 15px auto; overflow: hidden; }
+.Min7 .item ul li { width: 100%; line-height: 44px; overflow: hidden; padding: 12px 0; border-bottom: 1px dashed #edeff5; }
+.Min7 .item ul li span { float: left; width: 16px; height: 16px; line-height: 16px; color: #fff; text-align: center; display: block; margin: 3px 15px 0 0; font-family: 'SimSun'; font-size: 12px; }
+.Min7 .item ul li .title { display: block; float: left; width: 260px; overflow: hidden; height: 22px; line-height: 22px; font-size: 16px; color: #2e2e2e; }
+.Min7 .item ul li .info { display: none; overflow: hidden; float: left; }
+.Min7 .item ul li .info .img { float: left; display: block; margin-right: 10px; }
+.Min7 .item ul li .info .img, .Min7 .item ul li .info .img img { width: 67px; height: 67px; border-radius: 12px; }
+.Min7 .item ul li .info .bt { display: block; width: 190px; height: 20px; line-height: 20px; overflow: hidden; font-size: 16px; color: #2e2e2e; margin-top: 6px; }
+.Min7 .item ul li .info .bt:hover { color: #0281ff; }
+.Min7 .item ul li .info p { height: 20px; line-height: 20px; float: left; font-size: 12px; color: #9e9e9e; margin-top: 16px; }
+.Min7 .item ul li .info p i { color: #ff4c4c; margin: 0 5px; position: relative; display: inline-block; }
+.Min7 .item ul li .info p i::after { display: inline-block; content: ''; background: url(../images/img_icon.png) no-repeat; height: 14px; width: 12px; background-position: 0 -16px; margin: 0 4px -1px; }
+.Min7 .item ul li .info p i::before { display: inline-block; content: ''; width: 2px; height: 6px; background: #d5d5d5; margin-right: 5px; }
+.Min7 .item ul li .downl_ico { float: right; display: block; background: url(../images/img_icon.png) no-repeat; height: 16px; width: 16px; background-position: 0 -46px; margin-top: 3px; }
+.Min7 .item ul li.on .title { display: none; }
+.Min7 .item ul li.on span { height: 32px; line-height: 32px; margin-top: 17px; }
+.Min7 .item ul li.on .info { display: block; }
+.Min7 .item ul li.on .downl_ico { margin-top: 26px; background-position: 0 -62px; }
+.Min7 .all .label { background: -webkit-linear-gradient(to right, #f65959 0%, #ff6666 100%) !important; filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f65959', endColorstr='#ff6666',GradientType=1 ) !important; background: linear-gradient(to right, #f65959 0%, #ff6666 100%) !important; }
+.Min7 .all ul li span { background: #ff4c4c; border: 1px solid #ff4c4c; }
+.Min7 .all ul li + li span { background: #f65959; border: 1px solid #f65959; }
+.Min7 .all ul li + li + li span { background: #ffb2b2; border: 1px solid #ffb2b2; }
+.Min7 .all ul li + li + li + li span { background: #fff; border: 1px solid #f2c2c2; color: #f2c2c2; }
+.Min7 .az { margin: 30px 20px 0; }
+.Min7 .az .label { background: -webkit-linear-gradient(to right, #4eab5e 0%, #52cc66 100%) !important; filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4eab5e', endColorstr='#52cc66',GradientType=1 ) !important; background: linear-gradient(to right, #4eab5e 0%, #52cc66 100%) !important; }
+.Min7 .az ul li span { background: #36b34a; border: 1px solid #36b34a; }
+.Min7 .az ul li + li span { background: #57d96c; border: 1px solid #57d96c; }
+.Min7 .az ul li + li + li span { background: #98d9a3; border: 1px solid #98d9a3; }
+.Min7 .az ul li + li + li + li span { background: #fff; border: 1px solid #b8debf; color: #b8debf; }
+.Min7 .ios .label { background: -webkit-linear-gradient(to right, #3399ff 0%, #0281ff 100%) !important; filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3399ff', endColorstr='#0281ff',GradientType=1 ) !important; background: linear-gradient(to right, #3399ff 0%, #0281ff 100%) !important; }
+.Min7 .ios ul li span { background: #0180ff; border: 1px solid #0180ff; }
+.Min7 .ios ul li + li span { background: #4ca6ff; border: 1px solid #4ca6ff; }
+.Min7 .ios ul li + li + li span { background: #b2d9ff; border: 1px solid #b2d9ff; }
+.Min7 .ios ul li + li + li + li span { background: #fff; border: 1px solid #a3b9cc; color: #a3b9cc; }

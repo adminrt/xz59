@@ -1,0 +1,34 @@
+<?php
+	$b_table="www_kaifamei_com_ecms_app,www_kaifamei_com_ecms_app_check,www_kaifamei_com_ecms_app_check_data,www_kaifamei_com_ecms_app_copy1,www_kaifamei_com_ecms_app_data_1,www_kaifamei_com_ecms_app_doc,www_kaifamei_com_ecms_app_doc_data,www_kaifamei_com_ecms_app_doc_index,www_kaifamei_com_ecms_app_index,www_kaifamei_com_ecms_game,www_kaifamei_com_ecms_game_check,www_kaifamei_com_ecms_game_check_data,www_kaifamei_com_ecms_game_copy1,www_kaifamei_com_ecms_game_data_1,www_kaifamei_com_ecms_game_doc,www_kaifamei_com_ecms_game_doc_data,www_kaifamei_com_ecms_game_doc_index,www_kaifamei_com_ecms_game_index";
+	$tb[www_kaifamei_com_ecms_app]=11;
+$tb[www_kaifamei_com_ecms_app_check]=1;
+$tb[www_kaifamei_com_ecms_app_check_data]=1;
+$tb[www_kaifamei_com_ecms_app_copy1]=11;
+$tb[www_kaifamei_com_ecms_app_data_1]=16;
+$tb[www_kaifamei_com_ecms_app_doc]=1;
+$tb[www_kaifamei_com_ecms_app_doc_data]=1;
+$tb[www_kaifamei_com_ecms_app_doc_index]=1;
+$tb[www_kaifamei_com_ecms_app_index]=1;
+$tb[www_kaifamei_com_ecms_game]=17;
+$tb[www_kaifamei_com_ecms_game_check]=1;
+$tb[www_kaifamei_com_ecms_game_check_data]=1;
+$tb[www_kaifamei_com_ecms_game_copy1]=17;
+$tb[www_kaifamei_com_ecms_game_data_1]=18;
+$tb[www_kaifamei_com_ecms_game_doc]=1;
+$tb[www_kaifamei_com_ecms_game_doc_data]=1;
+$tb[www_kaifamei_com_ecms_game_doc_index]=1;
+$tb[www_kaifamei_com_ecms_game_index]=1;
+
+	$b_baktype=0;
+	$b_filesize=300;
+	$b_bakline=500;
+	$b_autoauf=1;
+	$b_dbname="www_jpgame123_co";
+	$b_stru=1;
+	$b_strufour=0;
+	$b_dbchar="utf8";
+	$b_beover=0;
+	$b_insertf="replace";
+	$b_autofield=",,";
+	$b_bakdatatype=1;
+	?>

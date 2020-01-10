@@ -1,0 +1,1 @@
+document.write("<div style=\"width:324px;height:284px;overflow:hidden;margin:auto;border:1px #f60 dashed;text-align:center;background:#fff; \">id_5广告位-326*286<br>  唯一官网：<a href=\"https://www.KaiFaMei.com\" target=\"_blank\" style=\"color:#ed252f;\">www.KaiFaMei.com</a></div>")
